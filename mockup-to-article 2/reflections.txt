@@ -1,0 +1,19 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+    I learned more HTML resources, like images,links and format the text
+
+  * What has been easy?
+
+       It was easy to remember some tags like <p>, <strong> and <em>
+
+  * What has been difficult?
+
+       Was to know how to put a subscript in a text.
+
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+     Firts looked the mockup,the text and images, after remember whats tags can I use, the things that I don’t know like line and the tag hard, I search at the google, how can I use.
+
+---
+
+Your response goes here!
