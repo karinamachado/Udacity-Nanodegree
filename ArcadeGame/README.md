@@ -12,7 +12,7 @@ Demo
 ===============================
 
 
-[Demo](https://github.com/karinamachado/Udacity-Nanodegree/edit/master/ArcadeGame/index.html)
+[Link](http://karinamachado.github.io/index.html).
 
 
 
