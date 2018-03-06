@@ -26,7 +26,7 @@ Enemy.prototype.update = function(dt) {
     if(this.x <= 505) {  //width = 505
         this.x = this.x + this.speed * dt;
     } else {
-        this.x = -2;
+        this.x = -1;
     }
 
 };
@@ -39,18 +39,18 @@ Enemy.prototype.render = function() {
 // Player class
 // This class requires an update(), render() and
 // a handleInput() method.
-var Player = function(x,y) {
-
-    this.x = 200;
-    this.y = 400;
-    this.sprite = 'images/char-boy.png';
+var Player = function() {
+    this.sprite = 'images/char-princess-girl.png';
+    this.x = 150;
+    this.y = 300;
+    
 
 }
 
 Player.prototype.update = function(dt) {
-    ;
+    
 
-    var up = this;
+    var uplayer = this;
     //if left key is pressed:
     if(this.pressedKey === 'left' && this.x > 0) { 
         this.x = this.x - 100;
@@ -80,9 +80,9 @@ Player.prototype.update = function(dt) {
     }
 
     allEnemies.forEach(function(enemy) {
-    if(up.x >= enemy.x - 25 && up.x <= enemy.x + 25) {
-        if(up.y >= enemy.y - 25 && up.y <= enemy.y + 25) {
-            up.reset();
+    if(uplayer.x >= enemy.x - 25 && uplayer.x <= enemy.x + 25) {
+        if(uplayer.y >= enemy.y - 25 && uplayer.y <= enemy.y + 25) {
+            uplayer.reset();
             }
         }
     });
