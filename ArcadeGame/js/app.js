@@ -50,7 +50,7 @@ var Player = function(x,y) {
 Player.prototype.update = function(dt) {
     ;
 
-    var uplayer = this;
+    var up = this;
     //if left key is pressed:
     if(this.pressedKey === 'left' && this.x > 0) { 
         this.x = this.x - 100;
@@ -80,9 +80,9 @@ Player.prototype.update = function(dt) {
     }
 
     allEnemies.forEach(function(enemy) {
-    if(uplayer.x >= enemy.x - 25 && uplayer.x <= enemy.x + 25) {
-        if(uplayer.y >= enemy.y - 25 && uplayer.y <= enemy.y + 25) {
-            uplayer.reset();
+    if(up.x >= enemy.x - 25 && up.x <= enemy.x + 25) {
+        if(up.y >= enemy.y - 25 && up.y <= enemy.y + 25) {
+            up.reset();
             }
         }
     });
